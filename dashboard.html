@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+
+    <link rel="stylesheet" href="css/dashboard/estilo.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="js/dashboard/index.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="item_header item_header_left">
+                <p><strong>DashBoard</strong></p>
+            </div>
+            <div class="item_header item_header_right">
+                <span><i class="fa-regular fa-user"></i></span>
+                <span><i class="fa-solid fa-gear"></i></span>
+                <span><i class="fa-solid fa-bell"></i></span>
+                <span><i class="fa-solid fa-arrow-right-from-bracket"></i></span>
+            </div>
+        </header>
+        <aside>
+            <div class="item_aside">
+                <div class="aside_title">
+                    <span><i class="fa-solid fa-otter fa-2xl"></i>DashBoard</span>
+                </div>
+                <div class="aside_title">
+                        <hr>
+                </div>
+            </div>
+            <div class="item_aside menu">
+                <div class="item_opcao">
+                    <span><i class="fa-solid fa-calendar-days"></i>Agenda</span>
+                </div>
+                <div class="item_opcao">
+                    <span><i class="fa-solid fa-inbox"></i>Email</span>
+                </div>
+                <div class="item_opcao">
+                    <span><i class="fa-solid fa-compass"></i>Mapa</span>
+                </div>
+                <div class="item_opcao">
+                    <span><i class="fa-solid fa-address-book"></i>Contatos</span>
+                </div>
+                <div class="item_opcao">
+                    <hr>
+                </div>
+            </div>
+            <div class="item_aside aside_rodape">
+                <div class="item_opcao">
+                    <span><i class="fa-solid fa-question"></i>Ajuda</span>
+                </div>
+                <div class="item_opcao">
+                    <span><i class="fa-solid fa-bug"></i>Reportar</span>
+                </div>
+            </div>
+            
+        </aside>
+        <main>
+            <div class="item_main graficos" >
+                <div class="item_graficos" style="background-color: #e74f82;">
+                    <canvas id="grafico_1"></canvas>
+                </div>
+                <div class="item_graficos" style="background-color:#66bb6a;">
+                    <canvas id="grafico_2"></canvas>
+                </div>
+                <div class="item_graficos" style="background-color:#191919;">
+                    <canvas id="grafico_3"></canvas>
+                </div>
+            </div>
+            <div class="item">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum diam ut lectus pharetra ultricies. Proin placerat suscipit mi, sit amet rutrum elit dictum dapibus. Integer eget condimentum urna. Curabitur faucibus bibendum nulla. Aliquam laoreet metus pulvinar ligula semper ullamcorper. Nam sit amet mauris suscipit, pellentesque velit ac, accumsan tortor. Morbi vel leo ornare, molestie tellus id, tempor metus. Integer vestibulum felis volutpat, interdum mauris a, scelerisque ligula. Ut iaculis tellus non lectus ultrices interdum. Morbi tincidunt elit at ipsum molestie ullamcorper. Vestibulum consectetur vulputate nisi vel porta.</p>
+                <p>Etiam interdum vitae libero a iaculis. Donec neque lectus, sagittis sit amet ante ac, pretium finibus libero. Aliquam in tellus ornare, fermentum lectus ac, vestibulum leo. Nam porttitor consequat felis nec scelerisque. Nulla ultricies, nunc nec tincidunt porta, arcu justo feugiat justo, ac convallis sapien lorem a libero. Morbi rhoncus sapien ut lorem pellentesque convallis. Curabitur vel dui mollis odio dapibus volutpat. Nunc vel varius mi. Donec vitae faucibus felis. Etiam a porta metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In efficitur lorem eu odio suscipit, a laoreet nunc aliquam. Aliquam id dolor sem. Donec aliquet luctus ante nec dapibus.</p>
+            </div>
+        </main>
+        <footer>
+            <div class="item_footer_left">
+                <div class="item_footer_left_option">
+                    <span>
+                        <i class="fa-solid fa-copyright fa-xs"></i>
+                        2023, criado por Bianca
+                    </span>
+                </div>
+            </div>
+            <div class="item_footer_right">
+                <div class="item_footer_right_option">
+                    <a href="https://www.linkedin.com/in/bianca-loren%C3%A7ato-313015158/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="item_footer_right_option">
+                    <a href="https://github.com/BiancaGLorencato" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

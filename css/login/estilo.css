@@ -1,0 +1,45 @@
+body {
+    background: #000;
+    height: 100vh;
+
+}
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    grid-template-rows: 400px;
+}
+.formulario{
+    background: rgba(202, 201, 226, 1);
+    border-radius: 10px;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 1.5rem;
+}
+.campos{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 0.8rem;
+    
+}
+.item_campo{
+    border: 1px solid gray;
+    border-radius: 8px;
+    outline: none;
+    height: 25px;
+}
+.botao{
+    border: 1px solid gray;
+    border-radius: 8px;
+    background:rgb(119, 117, 161);
+    height: 25px;
+    width: 180px;
+}
